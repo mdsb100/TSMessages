@@ -22,7 +22,7 @@ There are 4 different types already set up for you: Success, Error, Warning, Mes
   s.license          = 'MIT'
   s.author           = { "Cao Jun" => "78612846@qq.com" }
   s.source           = { :git => "https://github.com/mdsb100/TSMessages.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/KrauseFx'
+  # s.social_media_url = 'https://twitter.com/KrauseFx'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
