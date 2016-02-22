@@ -8,19 +8,20 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "TSMessages"
-  s.version          = "0.9.13"
-  s.summary          = "Easy to use and customizable messages/notifications for iOS à la Tweetbot."
+  s.name             = "TSMessagesNW"
+  s.version          = "0.9.14"
+  s.summary          = "No Warning Version.Easy to use and customizable messages/notifications for iOS à la Tweetbot."
   s.description  = <<-DESC
+                    No Warning Version!!! Check https://github.com/KrauseFx/TSMessages/pull/237
                     This framework provides an easy to use class to show little notification views on the top of the screen. (à la Tweetbot).
 The notification moves from the top of the screen underneath the navigation bar and stays there for a few seconds, depending on the length of the displayed text. To dismiss a notification before the time runs out, the user can swipe it to the top or just tap it.
 There are 4 different types already set up for you: Success, Error, Warning, Message.
                    DESC
-  s.homepage     = "https://github.com/KrauseFx/TSMessages/"
+  s.homepage     = "https://github.com/mdsb100/TSMessages"
 
   s.license          = 'MIT'
-  s.author           = { "Felix Krause" => "krausefx@gmail.com" }
-  s.source           = { :git => "https://github.com/KrauseFx/TSMessages.git", :tag => s.version.to_s }
+  s.author           = { "Cao Jun" => "78612846@qq.com" }
+  s.source           = { :git => "https://github.com/mdsb100/TSMessages", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/KrauseFx'
 
   s.platform     = :ios, '7.0'
