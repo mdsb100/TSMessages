@@ -1,5 +1,7 @@
-TSMessages
-==========
+TSMessages-NoWarning
+====================
+
+Check [![pull-request](https://github.com/KrauseFx/TSMessages/pull/237)]
 
 This library provides an easy to use class to show little notification views on the top of the screen. (à la Tweetbot).
 
@@ -24,8 +26,8 @@ Get in contact with the developer on Twitter: [KrauseFx](http://twitter.com/Krau
 TSMessages is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-    pod "TSMessages"
-    
+    pod "TSNWMessages"
+
 ## Manually
 Copy the source files TSMessageView and TSMessage into your project. Also copy the TSMessagesDesignDefault.json.
 
@@ -67,9 +69,9 @@ You can define a default view controller in which the notifications should be di
 You can define a default view controller in which the notifications should be displayed:
 ```objective-c
    [TSMessage setDelegate:self];
-   
+
    ...
-   
+
    - (CGFloat)messageLocationOfMessageView:(TSMessageView *)messageView
    {
     return messageView.viewController...; // any calculation here
@@ -79,9 +81,9 @@ You can define a default view controller in which the notifications should be di
 You can customize a message view, right before it's displayed, like setting an alpha value, or adding a custom subview
 ```objective-c
    [TSMessage setDelegate:self];
-   
+
    ...
-   
+
    - (void)customizeMessageView:(TSMessageView *)messageView
    {
       messageView.alpha = 0.4;
@@ -126,7 +128,7 @@ The following properties can be set when creating a new notification:
 
 Except the title and the notification type, all of the listed values are optional
 
-If you don't want a detailed description (the text underneath the title) you don't need to set one. The notification will automatically resize itself properly. 
+If you don't want a detailed description (the text underneath the title) you don't need to set one. The notification will automatically resize itself properly.
 
 ## Screenshots
 
