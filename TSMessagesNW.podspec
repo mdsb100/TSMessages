@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TSMessagesNW"
-  s.version          = "0.9.14"
+  s.version          = "0.9.15"
   s.summary          = "No Warning Version.Easy to use and customizable messages/notifications for iOS à la Tweetbot."
   s.description  = <<-DESC
                     No Warning Version!!! Check https://github.com/KrauseFx/TSMessages/pull/237
